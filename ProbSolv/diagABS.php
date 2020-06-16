@@ -1,3 +1,7 @@
+//the function takes the primary diagonal and the secondary diagonal of a matrix
+//then returns the difference between them as like : return abs($primeD-$seconD);
+//where $primeD is primary diag and $seconD is secondary diagonal
+
 function diagonalDifference($arr) {
     $primeD=0;
     $seconD=0;
