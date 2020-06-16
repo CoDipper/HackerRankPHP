@@ -1,4 +1,4 @@
-//the function takes array and finds the minimum and the maximum sums of n-1 element
+//the function takes an array and finds the minimum and the maximum sums of n-1 element
 //then prints them in the console
 
 function miniMaxSum($arr) {
