@@ -1,3 +1,5 @@
+// the function makes a staircase from a value input
+
 function staircase($n) {
     for($i=$n; $i>0; $i--){
 
