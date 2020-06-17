@@ -20,3 +20,11 @@ function timeConversion($s) {
 }
 echo timeConversion("12:45:54PM");
 ?>
+
+//simpler alternative
+<?php
+function timeConversion($s) {
+    return date("H:i:s", strtotime($s));
+}
+echo timeConversion("01:23:20PM");
+?>
