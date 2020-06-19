@@ -1,0 +1,21 @@
+1. bc_semi_automat
+	- DetCode -> външен ключ, отговаря на asn_kli_mat.MatId
+	
+2. instr_tools
+	- CliId -> външен ключ, отговаря на instr_clients.Id
+	- SubcliId -> външен ключ, отговаря на instr_subclients.Id
+
+3. instr_tools_plus
+	- Id -> външен ключ, отговаря на instr_tools.Id
+	- Temp -> външен ключ, отговаря на instr_clean_times_set.Temp
+	- Complex -> външен ключ, отговаря на instr_clean_times_lock.Complex
+
+4. instr_tool_det
+	- ToolId -> външен ключ, отговаря на instr_tools.Id
+	- DetId -> външен ключ, отговаря на asn_kli_mat.MatId
+	
+5. instr_warr
+	- ToolId -> външен ключ, отговаря на instr_tools.Id
+
+6. instr_shots
+	- ToolId -> външен ключ, отговаря на instr_tools.Id
