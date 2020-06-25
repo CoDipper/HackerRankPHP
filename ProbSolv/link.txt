@@ -2,3 +2,5 @@ https://codewithawa.com/posts/php-crud-create,-edit,-update-and-delete-posts-wit
 https://www.php.net/manual/en/function.mysql-fetch-array.php
 
 //database crud operations
+
+w3 not better than that: https://www.tutorialrepublic.com
