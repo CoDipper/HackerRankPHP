@@ -1,0 +1,22 @@
+function update_sub(elem) {
+	 	document.getElementById('id01').style.display='block';
+		document.querySelector('#btn_sub').innerText = 'Update subject';
+		var rowID = elem;
+		$.ajax({
+			url: "get_subject.php",
+			data: {row_id: rowID},
+			type: 'POST',
+			dataType: "json",
+			success: function(response) {
+				$('#sub_name').val(response.subject_name);
+				$('#period').val(response.period);
+				$('#hours').val(response.hours);
+				$('#coins').val(response.coins);
+				$('#mark').val(response.mark);
+				console.log(response);
+			},
+			error: function(response) {
+				console.log(response);
+			}
+		});
+	 }
